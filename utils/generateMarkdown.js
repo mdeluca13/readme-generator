@@ -1,5 +1,4 @@
-// TODO: Create a function that returns a license badge based on which license is passed in
-// If there is no license, return an empty string
+// Render license batch and link function based on the input of the license selected.
 function renderLicenseBadge(license) {
   let licenseBadge = '';
   switch (license) {
@@ -17,7 +16,7 @@ function renderLicenseBadge(license) {
   return licenseBadge;
 }
 
-// TODO: Create a function to generate markdown for README
+// Generates the readme file based on the user input
 function generateMarkdown(data) {
   return `# ${data.title}
 ${renderLicenseBadge(data.license)}
@@ -39,7 +38,7 @@ ${data.test}
 ## Contributing
 ${data.contribution}
 ## License
-${data.license}
+The License used was the ${data.license}. Also found in repository under LICENSE.
 ## Questions
 If you have any questions, please reachout via [GitHub](https://github.com/${data.github}/) or via email at [${data.email}](mailto:${data.email}).`;
 }
