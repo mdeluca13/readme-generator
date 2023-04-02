@@ -1,9 +1,9 @@
-// variable declaration
+// Variable declaration
 const inquirer = require('inquirer');
 const fs = require('fs');
 const generateMarkdown = require('./utils/generateMarkdown');
 
-// questions for user input
+// Questions for user input
 const questions = [
     {
       type: 'input',
@@ -32,7 +32,7 @@ const questions = [
     },
     {
         type: 'input',
-        message: 'What are the Contributors of your Project?',
+        message: 'Who are the Contributors of your Project?',
         name: 'contribution',
     },
     {
@@ -64,7 +64,7 @@ function writeToFile(fileName, data) {
     );
 }
 
-//Initializing the function of prompting the questions for user input and calling the writeToFile function to create the readme based on the input provided
+// Initializing the function of prompting the questions for user input and calling the writeToFile function to create the readme based on the input provided
 function init() {
     inquirer
         .prompt(questions)

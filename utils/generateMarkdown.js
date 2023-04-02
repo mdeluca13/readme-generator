@@ -38,9 +38,10 @@ ${data.test}
 ## Contributing
 ${data.contribution}
 ## License
-The License used was the ${data.license}. Also found in repository under LICENSE.
+The License used for this project is the ${data.license}. 
 ## Questions
 If you have any questions, please reachout via [GitHub](https://github.com/${data.github}/) or via email at [${data.email}](mailto:${data.email}).`;
 }
 
+// Exporting generateMarkdown
 module.exports = generateMarkdown;

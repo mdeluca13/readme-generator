@@ -19,6 +19,8 @@ You will also have to run command in node.JS terminal >> npm install
 3. Once you have answered all the questions, you will be see "Enjoy your README! in your node.JS terminal. 
 4. You can then view your newly created README.md file. 
 
+You can view a [demonstration of the README Generator here](https://drive.google.com/file/d/1LWxGBvSs35QFBsXc9sxgDDMb2cZe01Nf/view).
+
 ## Credits
 
 Base Code for HTML and CSS supplied by CARL-VIRT-FSF-PT-01-2023-U-LOLC GitLab Repository.
